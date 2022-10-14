@@ -233,10 +233,10 @@ story = [
 doc.build(story)
 ```
 
-Here is the report we created: LINK
+You can download the report we created [here](https://github.com/NICD-UK/reportlab-blog/releases/download/v1/report.pdf).
 
 ## Summary
 
 We have built a PDF report containing figures and tables using ReportLab and Pandas. This process is easily reproducible for other datasets and could be automated for producing reports on a regular basis. While there are other Python libraries available, I believe ReportLab provides great potential for fine-grained control over your reports and adding new content is simple once everything is set up. Getting started can be tricky due to the many types of object involved (document templates, page templates, frames, images, tables, and so on), but but hopefully the above example should help you on your way. If you work at a company which would like to automate their reports but doesn't know where to start, why not run a data skills project with us? (CTA)
 
-This article was built using [Quarto](https://quarto.org/), you can see the source code HERE.
+This article was built using [Quarto](https://quarto.org/), you can see the source code [here](https://github.com/NICD-UK/reportlab-blog/blob/v1/post.qmd).
